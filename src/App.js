@@ -12,8 +12,8 @@ function App() {
       <Navber />
       <Routes>
         <Route path="//Home" element={<Home />} />
-        <Route path="/brand" element={<Brand />} />
-        <Route path="/contact" element={<Contact />} />
+        {/* <Route path="/brand" element={<Brand />} />
+        <Route path="/contact" element={<Contact />} /> */}
       </Routes>
     </BrowserRouter>
   );
